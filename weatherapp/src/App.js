@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import axios from 'axios';
 import HeaderCard from './components/Header';
+// import WeatherCard from './components/WeatherCard';
 
 const API_Key = '0ff895f1354b494c95ab7dfadda2a141';
 
@@ -22,6 +23,7 @@ function App() {
     <div className="App">
 
       <HeaderCard />
+     
    
     </div>
   );
