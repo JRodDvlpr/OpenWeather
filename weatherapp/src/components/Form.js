@@ -7,9 +7,9 @@ const cardForm = () => {
     return (
         <div>
             <form>
-                <input type="text" placeholder="Enter City" onInput = {handleChange} />
+                <input type="text" placeholder="Enter City"  />
                 <button type="submit">Get Weather</button>
-                <h2>City: {city}</h2>
+                <h2>City:</h2>
             </form>
         </div>
 

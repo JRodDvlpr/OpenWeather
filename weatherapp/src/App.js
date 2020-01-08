@@ -3,19 +3,20 @@ import './App.css';
 import axios from 'axios';
 import HeaderCard from './components/Header';
 // import WeatherCard from './components/WeatherCard';
+import Form from './components/Form';
 
 
 // const API_Key = '0ff895f1354b494c95ab7dfadda2a141';
 
 function App() {
-  const [city, setCity] = useState([]);
+  const [location, setLocation] = useState([]);
   
   
   useEffect(() => {
     axios.get(`http://api.openweathermap.org/data/2.5/forecast?id=4159050&units=imperial&appid=0ff895f1354b494c95ab7dfadda2a141`)
       .then(arr => {
         console.log(arr.data);
-        setCity(arr.data);
+        setLocation(arr.data);
       })
       .catch(err => console.log(`There error is: ${err}`));
     },[]);  
@@ -23,6 +24,7 @@ function App() {
   return (
     <section className="App">
     <HeaderCard />
+    <Form />
 
 
     </section>
