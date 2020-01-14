@@ -1,34 +1,36 @@
 .cardWeather {
-    border: 1px solid #000000;
-  }
+  border: 1px solid #000000;
+}
   
-  form {
-    margin-top: 3rem;
-  }
+form {
+  margin-top: 3rem;
+}
    
-  form input[name="city"],
-  form input[name="country"] {
-    background-color: transparent;
-    color: black;
-    border: none;
-    border-bottom: 2px solid rgb(3, 206, 169);
-    border-radius: 0;
-  }
+form input[name="city"],
+form input[name="country"] {
+background-color: transparent;
+color: black;
+border: none;
+border-bottom: 2px solid rgb(3, 206, 169);
+border-radius: 0;
+}
   
-  .container {
-    margin-top: 1.2rem;
-  }
+.container {
+  margin-top: 1.2rem;
+}
    
  
-
-  .container input,
-  .container ::-webkit-input-placeholder {
-    color: black !important;
+.container input,
+.container ::-webkit-input-placeholder {
+  color: black !important;
     
-  }
-  .container input:focus {
-    background-color: transparent;
-    box-shadow: none !important;
-    border: none;
-    border-bottom: 2px solid tomato;
-  }
+}
+
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid tomato;
+}
+
+  

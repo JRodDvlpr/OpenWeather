@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -21,3 +22,11 @@
   color: #09d3ac;
 }
 
+
+.w-card{
+  align-content: center;
+  background-image: url(./img/background-Miami.jpg);
+  background-size: 1440px 1050px;
+  background-repeat: no-repeat;
+  height: 850px;
+}
