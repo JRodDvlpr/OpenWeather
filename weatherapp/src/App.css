@@ -14,13 +14,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
   color: #09d3ac;
 }
 
-.cardWeather {
-  border: 1px solid #000000;
-}
