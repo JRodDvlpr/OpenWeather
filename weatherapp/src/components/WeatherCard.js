@@ -6,6 +6,9 @@ const Weather = props => {
     <div className="container text-dark">
       <div className="Card">
         <h1 className="text-black py-3">{props.cityname}</h1>
+        <h5 className="py-4">
+          <i className={`wi ${props.weatherIcon} display-1`} />
+        </h5>
         
         {/* Get Celsius */}
         {props.temp ? (

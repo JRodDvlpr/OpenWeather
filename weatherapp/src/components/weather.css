@@ -11,7 +11,7 @@
     background-color: transparent;
     color: black;
     border: none;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid rgb(3, 206, 169);
     border-radius: 0;
   }
   
@@ -19,9 +19,12 @@
     margin-top: 1.2rem;
   }
    
+ 
+
   .container input,
   .container ::-webkit-input-placeholder {
     color: black !important;
+    
   }
   .container input:focus {
     background-color: transparent;
