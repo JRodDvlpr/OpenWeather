@@ -16,6 +16,7 @@ import '../components/weather.css';
                 autoComplete="off"
               />
             </div>
+            
             <div className="col-md-3">
               <input
                 type="text"
