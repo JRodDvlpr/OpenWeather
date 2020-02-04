@@ -25,8 +25,8 @@
 
 .w-card{
   align-content: center;
-  background-image: url(./img/background-Miami.jpg);
+  background-color: aquamarine;
   background-size: 1440px 1050px;
   background-repeat: no-repeat;
-  height: 850px;
+  height: 450px;
 }
