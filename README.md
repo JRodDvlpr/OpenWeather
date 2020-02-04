@@ -13,7 +13,7 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 
-![alt text](https://github.com/JRodDvlpr/OpenWeather/blob/master/weatherapp/src/images/WeatherApp.png)
+![alt text](https://github.com/JRodDvlpr/OpenWeather/blob/master/src/img/WeatherApp.png)
 
 
 
