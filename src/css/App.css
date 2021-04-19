@@ -1,0 +1,58 @@
+.App{
+  height: 600px;
+  text-align: center;
+  background-color: #919191;
+}
+
+.container1{
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.App .bg-box{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(85, 187, 250)
+}
+
+.header .title h1{
+  
+  font-family: 'Permanent Marker', sans-serif;
+  font-weight: 200;
+  color: azure;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.App-link {
+  color: #e90000;
+}
+.country input{
+  color: #000
+}
+
+.w-card{
+  align-content: center;
+  background-color: rgb(100, 168, 210);
+  background-size: 1440px 1050px;
+  border-radius: 5px;
+  margin: 30px auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+  #top .container1{
+    padding: 0 0 80px;
+  }
+
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+  #top .container1{
+    padding: 0 0 80px;
+  }
+  
+}

@@ -5,7 +5,9 @@ const HeaderCard = () => {
 
     return (
         <section className="header">
-            <h1>What is the weather?</h1>
+            <div className="title">
+                <h1>What is the weather?</h1>
+            </div> 
         </section>
 
     )

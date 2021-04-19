@@ -1,13 +1,13 @@
 import React from "react";
-import '../components/weather.css';
- 
+import '../css/weather.css';
+
   const Form = props => {
     return (
-      <div className="container">
+      <div className="container1">
         <form onSubmit={props.loadweather}>
           <div>{props.error ? error() : ""}</div>
           <div>
-          <div className="row">
+          <div className="city">
               <input
                 type="text"
                 className="form-control"
@@ -16,7 +16,7 @@ import '../components/weather.css';
                 autoComplete="off"
               />
             
-            <div className="container">
+            <div className="country">
               <input
                 type="text"
                 className="form-control"

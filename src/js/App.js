@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import WeatherCard from './components/WeatherCard';
-import Form from './components/Form';
+import '../css/App.css';
+import Header from '../components/Header';
+import WeatherCard from '../components/WeatherCard';
+import Form from '../components/Form';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./weather-icons/css/weather-icons.css";
+
+import "../css/weather-icons/css/weather-icons.css";
 
 const API_Key = '0ff895f1354b494c95ab7dfadda2a141';
 
@@ -60,13 +61,6 @@ class App extends React.Component{
         this.setState({ icon: icons.Clouds });
     }
   }
-
-  // calculate celsius
-  // calCelsius(temp) {
-  //   let cell = Math.floor(temp - 273.15);
-  //   return cell;
-  // }
-
   // event handler for submit button in form component
   getWeather = async e => {
     e.preventDefault();
@@ -104,6 +98,8 @@ class App extends React.Component{
 render() {
   return (
     <div className="App">
+      
+      <div className="bg-box">
       <Header />
       <Form loadweather={this.getWeather} error={this.state.error} />
       <WeatherCard
@@ -112,6 +108,7 @@ render() {
         temp={this.state.temp}
         description={this.state.description}
       />
+      </div>
     </div>
   );
 }

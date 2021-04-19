@@ -8,11 +8,13 @@ form {
    
 form input[name="city"],
 form input[name="country"] {
-background-color: transparent;
-color: black;
+background-color: white;
 border: none;
-border-bottom: 2px solid rgb(3, 206, 169);
-border-radius: 0;
+color: black;
+font-size: 1rem;
+border-bottom: 1px solid rgb(255, 70, 70);
+margin: 10px;
+
 }
   
 .container {
@@ -31,6 +33,21 @@ border-radius: 0;
   box-shadow: none !important;
   border: none;
   border-bottom: 2px solid tomato;
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+  #top .container1{
+    padding: 0 0 80px;
+  }
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+  form input[name="city"],
+  form input[name="country"] {
+  max-width: 400px;
+
+}
 }
 
   
